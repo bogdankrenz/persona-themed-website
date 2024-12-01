@@ -19,8 +19,14 @@ const BackgroundVideo = () => {
   }, []);
 
   return (
-    <div className="video-background">
-      <video ref={introVideoRef} autoPlay muted playsInline>
+    <div className="relative w-full h-screen overflow-hidden">
+      <video
+        ref={introVideoRef}
+        autoPlay
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      >
         <source src="/videos/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -29,7 +35,7 @@ const BackgroundVideo = () => {
         autoPlay
         muted
         loop
-        style={{ display: "none" }}
+        className="absolute top-0 left-0 w-full h-full object-cover hidden"
       >
         <source src="/videos/loop.mp4" type="video/mp4" />
         Your browser does not support the video tag.
