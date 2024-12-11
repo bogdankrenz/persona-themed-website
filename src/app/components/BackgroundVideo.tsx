@@ -1,7 +1,11 @@
 "use client";
 import { useEffect, useRef } from "react";
 
-const BackgroundVideo = () => {
+interface BackgroundVideoProps {
+  children: JSX.Element | JSX.Element[];
+}
+
+const BackgroundVideo = ({ children }: BackgroundVideoProps) => {
   const introVideoRef = useRef<HTMLVideoElement>(null);
   const loopingVideoRef = useRef<HTMLVideoElement>(null);
 
@@ -40,6 +44,7 @@ const BackgroundVideo = () => {
         <source src="/videos/loop.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      {children}
     </div>
   );
 };

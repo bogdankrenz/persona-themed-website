@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## TODO
+- Make the video layout adjust to the right side of the animation (the water) marks because the layout is horizontal
+- Page is scrollable within the layout
+- Blur the edges when scrolling
+- Font from previous page
+- Element alignment like the previous page but reversed because the animation is on the left
+- Keyboard navigation with animations
+
