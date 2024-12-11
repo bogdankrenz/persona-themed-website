@@ -23,7 +23,7 @@ const BackgroundVideo = ({ children }: BackgroundVideoProps) => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden z-0">
       <video
         ref={introVideoRef}
         autoPlay
