@@ -1,4 +1,5 @@
 import BackgroundVideo from "./components/BackgroundVideo";
+import Navigation from "./components/Navigation";
 
 export default function Home() {
   return (
@@ -6,11 +7,8 @@ export default function Home() {
       {/* Background video component */}
       <BackgroundVideo>
         {/* Main content */}
-        <div className="relative z-10 text-center text-white p-4 md:p-8">
-          {/* <h1>Welcome to My Website</h1>
-        <p>This is my favorite video game-themed website.</p> */}
-        </div>
         <div className="relative z-10 text-center text-black font-mono text-m"></div>
+        <Navigation />
       </BackgroundVideo>
     </div>
   );

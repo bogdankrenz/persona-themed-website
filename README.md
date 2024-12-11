@@ -38,6 +38,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## TODO
 - Make the video layout adjust to the right side of the animation (the water) marks because the layout is horizontal
+- Navigation (sticky vs scrollable)
+- Hero / Intro
+- Current occupation -> prev. companies
+- Description of the work exp.
 - Page is scrollable within the layout
 - Blur the edges when scrolling
 - Font from previous page
