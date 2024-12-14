@@ -4,12 +4,14 @@ import { DiscordIcon, GithubIcon, LinkdInIcon, TelegramIcon } from "./Icons";
 const Navigation = () => {
   return (
     <div className="container relative flex justify-between max-w-full p-8">
-      <h2 className="text-5xl text-blue-900 font-extrabold">Bogdan Krenz</h2>
+      <h2 className="text-5xl font-extrabold text-white mix-blend-difference">
+        Bogdan Krenz
+      </h2>
       <div className="flex gap-4">
-        <TelegramIcon />
-        <GithubIcon />
-        <LinkdInIcon />
-        <DiscordIcon />
+        <TelegramIcon className="fill-black" />
+        <GithubIcon className="fill-black" />
+        <LinkdInIcon className="fill-black" />
+        <DiscordIcon className="fill-black" />
       </div>
     </div>
   );
