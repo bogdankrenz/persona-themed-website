@@ -7,7 +7,7 @@ const Navigation = () => {
       <h2 className="text-5xl font-extrabold text-white mix-blend-difference">
         Bogdan Krenz
       </h2>
-      <div className="flex gap-4">
+      <div className="flex gap-4 hidden">
         <TelegramIcon className="fill-black" />
         <GithubIcon className="fill-black" />
         <LinkdInIcon className="fill-black" />
